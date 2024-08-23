@@ -1,6 +1,7 @@
 import './alerts.css';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios'; // Import axios at the top
+const apiKey = process.env.REACT_APP_API_KEY;
 
 const Alerts = () => {
     const [alertMsg, setAlertMsg] = useState([]);
@@ -20,7 +21,7 @@ const Alerts = () => {
                     language: 'en'
                 },
                 headers: {
-                    'x-rapidapi-key': '88bbcb303cmsh1e9085c491a5567p17a682jsn4ff8b2569e63',
+                    'x-rapidapi-key': apiKey,
                     'x-rapidapi-host': 'ai-weather-by-meteosource.p.rapidapi.com'
                 }
             };

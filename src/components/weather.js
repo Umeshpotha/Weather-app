@@ -15,6 +15,7 @@ import {
   faThermometerHalf // Ensure this is included correctly
 } from '@fortawesome/free-solid-svg-icons';
 import './weather.css';
+const apiKey = process.env.REACT_APP_API_KEY;
 
 const getWeatherIcon = (summary) => {
   switch (summary?.toLowerCase()) {
@@ -54,7 +55,7 @@ const CurrentWeather = () => {
           units: 'auto',
         },
         headers: {
-          'x-rapidapi-key': '88bbcb303cmsh1e9085c491a5567p17a682jsn4ff8b2569e63',
+          'x-rapidapi-key': apiKey,
           'x-rapidapi-host': 'ai-weather-by-meteosource.p.rapidapi.com',
         },
       };
