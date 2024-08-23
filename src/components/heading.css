@@ -1,0 +1,8 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.head-cont{
+    margin:10px;
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.1);
+    border-radius: 8px;
+}

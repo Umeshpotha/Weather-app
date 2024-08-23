@@ -1,0 +1,70 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #1e3c72;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #1e3c72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h2 i, h2 svg {
+    margin-right: 8px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  p i, p svg {
+    margin-right: 10px;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .loading {
+    font-style: italic;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  }
+  
